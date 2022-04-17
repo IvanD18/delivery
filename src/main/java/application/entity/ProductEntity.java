@@ -4,7 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "PRODUCT",
+@Table(name = "product",
         uniqueConstraints = {@UniqueConstraint(columnNames = {"ID"})})
 public class ProductEntity{
     private long productId;
@@ -87,7 +87,7 @@ public class ProductEntity{
         this.supplier = supplier;
     }
 
-    @Column(name = "PRICE")
+    @Column(name = "Price")
     public double getPrice() {
         return price;
     }

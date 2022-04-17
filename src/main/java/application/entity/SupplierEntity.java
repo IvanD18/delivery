@@ -4,7 +4,7 @@ package application.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "SUPPLIER",
+@Table(name = "supplier",
         uniqueConstraints = { @UniqueConstraint(columnNames = { "ID" }) })
 public class SupplierEntity {
     private long supplierId;

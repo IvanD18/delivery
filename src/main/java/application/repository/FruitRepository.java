@@ -9,6 +9,5 @@ import java.util.List;
 
 
 public interface FruitRepository extends JpaRepository<FruitEntity, Long> {
-    List<FruitEntity> findFruitEntitiesBySupplierSupplierName(String supplierName);
 
 }

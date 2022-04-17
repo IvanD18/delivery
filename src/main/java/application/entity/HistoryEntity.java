@@ -5,7 +5,7 @@ import java.util.Date;
 import java.util.List;
 
 @Entity
-@Table(name = "HISTORY",
+@Table(name = "history",
         uniqueConstraints = { @UniqueConstraint(columnNames = { "ID" }) })
 public class HistoryEntity {
     private long historyId;
